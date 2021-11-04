@@ -44,9 +44,9 @@ public class colour {
 
 	//Gradualy changes a colour all three RGB values at once
 	public void gradualChange(int delta){
-		red += delta;
+		red += delta*2;
 		blue += delta;
-		green += delta;
+		green -= delta;
 		newColour();
 	}
 	
